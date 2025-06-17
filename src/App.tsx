@@ -142,17 +142,12 @@ function App() {
               </div>
               
               <div className="p-8">
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Un'iniziativa pensata per diffondere buone pratiche di uso sicuro della rete, 
-                  attiva nei Comuni del Teramano con il contributo del Consorzio B.I.M.
-                </p>
-                
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                       <BookOpen className="w-8 h-8 text-orange-600" />
                     </div>
-                    <h4 className="font-semibold text-gray-900 mb-2">90 Libretti Didattici</h4>
+                    <h4 className="font-semibold text-gray-900 mb-2">Materiale didattico</h4>
                     <p className="text-gray-600">Materiale personalizzato e gratuito</p>
                   </div>
                   
@@ -267,7 +262,7 @@ function App() {
                     <MapPin className="w-8 h-8 text-green-600" />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">Sede Legale</h3>
-                  <p className="text-gray-600">[Via, CAP, Comune]</p>
+                  <p className="text-gray-600">Via dei Mulini 2, Teramo</p>
                 </div>
                 
                 <div className="text-center">
@@ -275,7 +270,7 @@ function App() {
                     <Phone className="w-8 h-8 text-blue-600" />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">Contatto Diretto</h3>
-                  <p className="text-gray-600">[Numero cellulare]</p>
+                  <p className="text-gray-600">347 6770027</p>
                 </div>
               </div>
               
@@ -305,27 +300,21 @@ function App() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
                 <h4 className="font-semibold mb-2">Informazioni Legali</h4>
-                <p className="text-gray-400">CF: [Codice Fiscale]</p>
-                <p className="text-gray-400">IBAN: [Codice IBAN]</p>
+                <p className="text-gray-400">CF: 92067490679</p>
               </div>
               
               <div>
                 <h4 className="font-semibold mb-2">Contatti</h4>
                 <p className="text-orange-400">info@pixelassociazione.it</p>
-                <p className="text-gray-400">[Via, CAP, Comune]</p>
+                <p className="text-gray-400">Via dei Mulini 2, Teramo</p>
+                <p className="text-gray-400">347 6770027</p>
               </div>
               
               <div>
                 <h4 className="font-semibold mb-4">Seguici sui Social</h4>
-                <div className="flex justify-center space-x-4">
-                  <a href="#" className="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center hover:bg-orange-700 transition-colors">
+                <div className="flex justify-center">
+                  <a href="https://www.facebook.com/pixelassociazione.it" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                     <Facebook className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors">
-                    <Instagram className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
-                    <MessageCircle className="w-5 h-5" />
                   </a>
                 </div>
               </div>
